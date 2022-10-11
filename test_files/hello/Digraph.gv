@@ -1,0 +1,10 @@
+digraph {
+	graph [forcelabels=true overlap=false splines=ortho]
+	node [fontname=trebuchet fontsize=11 margin="0.1,0.0" penwidth=1.2 shape=box]
+	edge [center=true fontsize="7  " penwidth=0.6]
+	0 [label="Class R:
+	P(B) = 0.1
+	P(L) = 0.5
+	P(R) = 0.5
+samples: 625" fillcolor="#fae7d9" style=filled]
+}

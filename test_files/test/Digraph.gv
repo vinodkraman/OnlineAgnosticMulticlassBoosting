@@ -1,0 +1,23 @@
+digraph {
+	graph [forcelabels=true overlap=false splines=ortho]
+	node [fontname=trebuchet fontsize=11 margin="0.1,0.0" penwidth=1.2 shape=box]
+	edge [center=true fontsize="7  " penwidth=0.6]
+	0 [label=empty_server_form_handler fillcolor="#fbede2" style=filled]
+	1 [label="Class True:
+	P(False) = 0.1
+	P(True) = 0.9
+samples: 664" fillcolor="#6ab5eb" style=filled]
+	0 -> 1 [xlabel="≤ 0.5455"]
+	2 [label=popup_window fillcolor="#eda572" style=filled]
+	0 -> 2 [xlabel="> 0.5455"]
+	3 [label="Class False:
+	P(False) = 0.5
+	P(True) = 0.5
+samples: 110" fillcolor="#fdf4ee" style=filled]
+	2 -> 3 [xlabel="≤ 0.2727"]
+	4 [label="Class False:
+	P(False) = 1.0
+	P(True) = 0.0
+samples: 337" fillcolor="#e68743" style=filled]
+	2 -> 4 [xlabel="> 0.2727"]
+}
